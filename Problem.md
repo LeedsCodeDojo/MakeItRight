@@ -64,6 +64,7 @@ e.g.
 
 Try one or more of the following, deciding on the specifics as you see fit:
 
+* Implement more operators
 * Allow/require decimals, e.g. + 1.0 0.5 = 1.5
 * Return rational numbers, e.g. / 2 6 = 1/3
 * Allow arguments to themselves be expressions (will require some kind of delimeter) - e.g. [+ [- 4 2] [/ 10 [* 1 2]]] = 7
