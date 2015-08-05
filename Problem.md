@@ -31,6 +31,8 @@ Operators are applied to arguments from left to right.  The available operators 
 ##### Arguments
 
 It only needs to handle two arguments, which will both be positive integers between 1 and 100.
+'
+'
 
 ##### Further Examples & Rules
 
