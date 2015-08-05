@@ -17,9 +17,11 @@ Output:
 
 The format of the output is not important.  Even unicode will be acceped.. ;-)
 
+If something is not specified, handle it as you like.  Keep it simple - just use integers, assume the arguments are valid, etc.
+
 #### Operators
 
-The available operators are:
+Operators are applied to arguments from left to right.  The available operators are:
 
     + 
     - 
@@ -47,3 +49,13 @@ Additional rule: Use of built-in 'eval'-like functions disallowed.  Especially i
 ### Extra Params
  
 Update your calculator to accept a variable number of parameters, between 2 and 10.
+
+e.g.
+
+    + 1 2 3 4 5 6 7 8 9 = 45
+    
+    - 3 2 1 = 0
+    
+    * 2 3 4 = 24
+    
+    / 24 4 3 = 2
