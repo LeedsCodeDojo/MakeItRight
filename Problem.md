@@ -1,7 +1,7 @@
 Prefix Calculator
 =================
 
-I've tried to make this fairly open-ended.  The idea is to focus on the technique rather than completely solving the problem.  Although I know some of you will do that anyway..
+I've tried to make this fairly open-ended.  The idea is to focus on the technique rather than completely solving the problem.  Although I know some of you will try and do that anyway..
 
 ### Basic Calculator
 
@@ -19,7 +19,7 @@ The format of the output is not important.  Even unicode will be acceped.. ;-)
 
 If something is not specified, handle it as you like.  Keep it simple - just use integers, assume the arguments are valid, etc.
 
-#### Operators
+##### Operators
 
 Operators are applied to arguments from left to right.  The available operators are:
 
@@ -28,13 +28,13 @@ Operators are applied to arguments from left to right.  The available operators 
     * 
     / 
 
-#### Arguments
+##### Arguments
 
 It only needs to handle two arguments, which will both be positive integers between 1 and 100.
 
-#### Further Examples & Rules
+##### Further Examples & Rules
 
-Examples sums:
+Example sums:
 
      + 33 44 = 77
      
@@ -60,7 +60,7 @@ e.g.
     
     / 24 4 3 = 2
 
-### Furthe Requirements
+### Further Enhancements
 
 Try one or more of the following, deciding on the specifics as you see fit:
 
