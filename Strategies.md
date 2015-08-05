@@ -44,4 +44,39 @@ If it takes longer than you thought, is more complex, or you don't get the test 
 
 #### Triangulation
 
-jlbyhb
+First of all, Fake It with a hard-coded value or simple hack:
+
+    [Test]
+    public void adding_two_numbers_gives_correct_result() {
+        Assert.That(Triangulation_Calc.Evaluate("+ 1 2"), Is.EqualTo(3));
+    }
+
+    public static int Evaluate(string expression) {
+        return 3;
+    }
+
+Then add another test to force you to update the solution:
+
+    [Test]
+    public void adding_two_different_numbers_gives_correct_result() {
+        Assert.That(Triangulation_Calc.Evaluate("+ 99 1"), Is.EqualTo(100));
+    }
+
+    public static int Evaluate(string expression) {
+        var subParts = expression.Split(' ');
+        return int.Parse(subParts[1]) + int.Parse(subParts[2]);
+    }
+    
+#### Refactor
+
+Whichever strategy you chose, be sure to refactor before moving onto the next test:
+
+    public static int Evaluate(string expression) {
+        var elements = expression.Split(' ');
+
+        string op = elements[0],
+            arg1 = elements[1],
+            arg2 = elements[2];
+
+        return int.Parse(arg1) + int.Parse(arg2);
+    }
