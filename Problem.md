@@ -15,7 +15,7 @@ Output:
 
     7
 
-The format of the output is not important.  Even unicode will be acceped.. ;-)
+The format of the output is not important, although strings might make later enhancements easier.  Even unicode will be acceped.. ;-)
 
 If something is not specified, handle it as you like.  Keep it simple - just use integers, assume the arguments are valid, etc.
 
