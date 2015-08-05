@@ -46,7 +46,7 @@ Examples sums:
 
 Additional rule: Use of built-in 'eval'-like functions disallowed.  Especially if you're using a Lisp!
  
-### Extra Params
+### Extra Arguments
  
 Update your calculator to accept a variable number of parameters, between 2 and 10.
 
@@ -59,3 +59,11 @@ e.g.
     * 2 3 4 = 24
     
     / 24 4 3 = 2
+
+### Furthe Requirements
+
+Try one or more of the following, deciding on the specifics as you see fit:
+
+* Allow/require decimals, e.g. + 1.0 0.5 = 1.5
+* Return rational numbers, e.g. / 2 6 = 1/3
+* Allow arguments to themselves be expressions (will require some kind of delimeter) - e.g. [+ [- 4 2] [/ 10 [* 1 2]]] = 7
