@@ -26,7 +26,21 @@ It is particularly important to refactor agressively when using this strategy.  
 
 #### Obvious Implementation
 
-kuhi
+If you know exactly what to do and it's simple (e.g. one or two lines and doable within 30 seconds), just type in the solution:
+
+    [Test]
+    public void adding_two_numbers_gives_correct_result() {
+        Assert.That(Obvious_Calc.Evaluate("+ 1 2"), Is.EqualTo(3));
+    }
+
+    public static int Evaluate(string expression) {
+        var subParts = expression.Split(' ');
+        return int.Parse(subParts[1]) + int.Parse(subParts[2]);
+    }
+    
+You still want to get the test passing quickly, so save the niceties (good names, patterns, etc.) for the refactoring step.
+
+If it takes longer than you thought, is more complex, or you don't get the test passing first time, back out and revert to a different strategy.
 
 #### Triangulation
 
