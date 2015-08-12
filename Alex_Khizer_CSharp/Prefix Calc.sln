@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prefix Calc", "Prefix Calc\Prefix Calc.csproj", "{2B4832B3-50A3-4461-9C03-1060E7DBFB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prefix Calc Test", "Prefix Calc Test\Prefix Calc Test.csproj", "{966A1354-4E4E-4E93-A4CC-0013D54DAA69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B4832B3-50A3-4461-9C03-1060E7DBFB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4832B3-50A3-4461-9C03-1060E7DBFB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4832B3-50A3-4461-9C03-1060E7DBFB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4832B3-50A3-4461-9C03-1060E7DBFB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966A1354-4E4E-4E93-A4CC-0013D54DAA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966A1354-4E4E-4E93-A4CC-0013D54DAA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966A1354-4E4E-4E93-A4CC-0013D54DAA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966A1354-4E4E-4E93-A4CC-0013D54DAA69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
