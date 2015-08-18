@@ -16,8 +16,8 @@ public class Calc {
     public static string Evaluate(string expression) {
         var elements = expression.Split(' ');
         string op = elements[0];
-        var intArgs = elements.Skip(1).Select(float.Parse);
-        float result = _operators[op].Invoke(intArgs);
+        var args = elements.Skip(1).Select(float.Parse);
+        float result = _operators[op].Invoke(args);
         return result.ToString();
     }
 }

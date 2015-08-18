@@ -46,4 +46,9 @@ public class Calc_Tests {
     public void division_resulting_in_numbers_below_one_works() {
         Assert.That(Calc.Evaluate("/ 1.0 2.0"), Is.EqualTo("0.5"));
     }
+
+    [Test]
+    public void works_with_one_level_of_sub_expression() {
+        Assert.That(Calc.Evaluate("+ [+ 1 2] [- 9 1]"), Is.EqualTo("11"));
+    }
 }
