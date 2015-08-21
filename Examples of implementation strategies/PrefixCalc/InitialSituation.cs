@@ -12,6 +12,6 @@ public class Initial_Calc_Tests {
 
 public class Initial_Calc {
     public static int Evaluate(string expression) {
-        return 3;
+        return 0;
     }
 }
